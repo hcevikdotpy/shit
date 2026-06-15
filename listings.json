@@ -1,0 +1,107 @@
+[
+  {
+    "id": "457314103",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457314103",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=457314103\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=457314103\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "456303371",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456303371",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=456303371\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=456303371\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "457346164",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457346164",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=457346164\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=457346164\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "455982574",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=455982574",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=455982574\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=455982574\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "457761820",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457761820",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=457761820\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=457761820\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "453436024",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=453436024",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=453436024\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=453436024\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "449587173",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=449587173",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=449587173\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=449587173\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "458289271",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=458289271",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=458289271\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=458289271\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "456722503",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456722503",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=456722503\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=456722503\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "456798000",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456798000",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=456798000\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=456798000\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "458319975",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=458319975",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=458319975\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=458319975\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "456438375",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456438375",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=456438375\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=456438375\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "444296226",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=444296226",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=444296226\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=444296226\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "456609961",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456609961",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=456609961\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=456609961\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "457352622",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457352622",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=457352622\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=457352622\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "452454491",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=452454491",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=452454491\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=452454491\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "455027252",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=455027252",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=455027252\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=455027252\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "456346875",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456346875",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=456346875\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=456346875\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "453003833",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=453003833",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=453003833\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=453003833\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "449890047",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=449890047",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=449890047\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=449890047\", waiting until \"domcontentloaded\"\n"
+  },
+  {
+    "id": "447962998",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=447962998",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://suchen.mobile.de/fahrzeuge/details.html?id=447962998\nCall log:\n  - navigating to \"https://suchen.mobile.de/fahrzeuge/details.html?id=447962998\", waiting until \"domcontentloaded\"\n"
+  }
+]
