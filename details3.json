@@ -1,0 +1,110 @@
+[
+  {
+    "id": "440029792",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=440029792",
+    "http_status": 200,
+    "html_length": 7636,
+    "page_title": "Zugriff verweigert / Access denied",
+    "page_lines_count": 20,
+    "page_text_sample": [
+      "Zugriff verweigert",
+      "Error Reference: 0.90071002.1782137853.4fdbccb8",
+      "Aus Sicherheitsgründen mussten wir den Zugriff auf unsere Daten leider verweigern.",
+      "Damit Sie weiterhin Zugriff erhalten, stellen Sie bitte sicher, dass folgende Voraussetzungen erfüllt sind:",
+      "Betriebssystem: Ihre Betriebssystemversion ist nicht älter als 6 Monate im Vergleich zur aktuellsten verfügbaren Version.",
+      "Browser: Ihre Browserversion ist nicht älter als 12 Monate im Vergleich zur aktuellsten verfügbaren Version.",
+      "Browser-Erweiterungen (Add-ons): Bitte prüfen Sie, ob verwendete Erweiterungen notwendige Anfragen blockieren (z. B. Werbe-/Tracking-Blocker, Script-Blocker).",
+      "Proxy/VPN: Es besteht keine Verbindung über einen Proxy oder ein VPN. Falls doch, trennen Sie diese Verbindung bitte und versuchen Sie es anschließend ohne Proxy/VPN erneut.",
+      "Sollten die Herausforderungen trotz Prüfung aller Punkte weiterhin bestehen, kontaktieren Sie uns bitte unter Nennung der angezeigten Ref-ID (maximal 48 Stunden gültig) unter:",
+      "Telefon",
+      "Montag bis Freitag von 8:00 - 18:00",
+      "Private Nutzer und gewerbliche Anbieter: +49 (0) 30 81097-601",
+      "Händler: +49 (0) 30 81097-500",
+      "E-Mail",
+      "service@team.mobile.de",
+      "mobile.de GmbH",
+      "Dernburgstraße 50 | 14057 Berlin | Deutschland",
+      "Geschäftsführung: Ajay Bhatia und Dirk Schmelzer",
+      "HRB Nr: 271620 B, Amtsgericht Charlottenburg",
+      "Sitz der Gesellschaft: Berlin"
+    ]
+  },
+  {
+    "id": "457551621",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457551621",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "456333942",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=456333942",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457717885",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457717885",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "458711959",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=458711959",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "458501356",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=458501356",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457988469",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457988469",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "414721913",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=414721913",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457434243",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457434243",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457257293",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457257293",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457229728",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=457229728",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "442782174",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=442782174",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "454899106",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=454899106",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "452510888",
+    "url": "https://suchen.mobile.de/fahrzeuge/details.html?id=452510888",
+    "http_status": 403,
+    "error": "HTTP 403"
+  }
+]

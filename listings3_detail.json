@@ -1,0 +1,88 @@
+[
+  {
+    "id": "440029792",
+    "url": "https://www.mobile.de/auto-inserat/renault-captur-luxe-1-2-aut-navi-r-cam-szh-8xlmf-temp-hu-zwickau/440029792.html",
+    "http_status": 200,
+    "html_length": 7636,
+    "page_title": "Zugriff verweigert / Access denied",
+    "error": "Short page (7636 bytes) — likely blocked"
+  },
+  {
+    "id": "457551621",
+    "url": "https://www.mobile.de/auto-inserat/mercedes-benz-c-180-c-coupe-c-180-cgi-blueefficiency-t%C3%BCv-neu-krostitz/457551621.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "456333942",
+    "url": "https://www.mobile.de/auto-inserat/hyundai-i20-1-4-style-aut-klima-pdc-freispr-alus-t%C3%BCv-neu-berlin/456333942.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457717885",
+    "url": "https://www.mobile.de/auto-inserat/bmw-116-1-limousine-automatik-schiebedach-leder-berlin/457717885.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "458711959",
+    "url": "https://www.mobile.de/auto-inserat/audi-a5-sportback-1-8-tfsi-bi-xenon-aac-pdc-shz-19z-brehna/458711959.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "458501356",
+    "url": "https://www.mobile.de/auto-inserat/audi-a3-1-8-tfsi-sportback-aut-steuerkette-neu-1hand-berlin/458501356.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457988469",
+    "url": "https://www.mobile.de/auto-inserat/bmw-118i-f20-sport-line-led-automatik-wenig-km-berlin/457988469.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "414721913",
+    "url": "https://www.mobile.de/auto-inserat/bmw-116-i-lim-5-trg-automatik-pdc-klima-berlin/414721913.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457434243",
+    "url": "https://www.mobile.de/auto-inserat/bmw-320-i-limousine-navi-bixenon-leder-pdc-tempomat-berlin/457434243.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457257293",
+    "url": "https://www.mobile.de/auto-inserat/bmw-116-i-automatik-pdc-2-hand-allwetter-nauen/457257293.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "457229728",
+    "url": "https://www.mobile.de/auto-inserat/bmw-118-i-limousine-urban-autom-xen-klima-pdc-shz-sch%C3%B6nefeld-ot-gro%C3%9Fziethen/457229728.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "442782174",
+    "url": "https://www.mobile.de/auto-inserat/audi-a3-quattro-lim-berlin/442782174.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "454899106",
+    "url": "https://www.mobile.de/auto-inserat/kia-rio-spirit-automatik-kamera-tempomat-sitzheizung-sch%C3%B6neiche-bei-berlin/454899106.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  },
+  {
+    "id": "452510888",
+    "url": "https://www.mobile.de/auto-inserat/bmw-116-116-i-xenon-automatik-ahk-2-hand-brandenburg/452510888.html",
+    "http_status": 403,
+    "error": "HTTP 403"
+  }
+]
