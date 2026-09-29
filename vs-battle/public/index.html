@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VS Battle Oracle</title>
+  <meta name="description" content="Wer gewinnt? Zwei Charaktere aus dem VS Battles Wiki gegeneinander antreten lassen – mit KI-Begründung.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚔️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">⚔</span>
+      <div>
+        <h1>VS Battle Oracle</h1>
+        <p>Daten aus dem <a href="https://vsbattles.fandom.com/wiki/" target="_blank" rel="noopener">VS Battles Wiki</a> · Urteil per LLM über OpenRouter</p>
+      </div>
+    </div>
+    <button id="settingsBtn" class="ghost-btn" aria-expanded="false" aria-controls="settings">⚙ Einstellungen</button>
+  </header>
+
+  <section id="settings" class="settings" hidden>
+    <div class="settings-grid">
+      <label>Modell
+        <select id="modelSelect"></select>
+      </label>
+      <label>Eigenes Modell (OpenRouter-ID)
+        <input id="customModel" type="text" placeholder="z. B. mistralai/mistral-large" autocomplete="off">
+      </label>
+      <label>Sprache der Erklärung
+        <select id="langSelect">
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+        </select>
+      </label>
+      <label id="apiKeyWrap" hidden>OpenRouter API-Key
+        <input id="apiKey" type="password" placeholder="sk-or-…" autocomplete="off">
+        <small>Wird nur lokal in deinem Browser gespeichert und direkt an diesen Server weitergereicht.</small>
+      </label>
+    </div>
+  </section>
+
+  <main>
+    <section class="arena">
+      <div class="fighter" data-side="A"></div>
+      <div class="vs-col">
+        <div class="vs-badge">VS</div>
+        <button id="swapBtn" class="icon-btn" title="Seiten tauschen" aria-label="Seiten tauschen">⇄</button>
+      </div>
+      <div class="fighter" data-side="B"></div>
+    </section>
+
+    <section class="scenario">
+      <h2>Szenario</h2>
+      <div class="toggles">
+        <label class="chip"><input type="checkbox" id="optBloodlust"> <span>Bloodlusted</span></label>
+        <label class="chip"><input type="checkbox" id="optSpeedEq"> <span>Speed-equalized</span></label>
+        <label class="chip"><input type="checkbox" id="optPrep"> <span>Vorbereitungszeit</span></label>
+      </div>
+      <textarea id="optNotes" rows="2" maxlength="500" placeholder="Zusätzliche Bedingungen (optional), z. B. „Kampf auf dem Mond“, „keine Transformationen“ …"></textarea>
+      <button id="fightBtn" class="fight-btn" disabled>
+        <span class="fight-label">Kampf starten</span>
+      </button>
+      <p id="fightHint" class="hint">Wähle zwei Charaktere aus.</p>
+    </section>
+
+    <section id="result" class="result" hidden aria-live="polite"></section>
+  </main>
+
+  <footer class="footer">
+    Charakterdaten &amp; Bilder: <a href="https://vsbattles.fandom.com/wiki/" target="_blank" rel="noopener">VS Battles Wiki</a> (CC BY-SA). Urteile sind KI-generiert und können Fehler enthalten.
+  </footer>
+
+  <template id="fighterTpl">
+    <div class="fighter-head">
+      <span class="side-tag"></span>
+      <button class="icon-btn random-btn" title="Zufälliger Charakter (mit Filtern)" aria-label="Zufälliger Charakter">🎲</button>
+      <button class="ghost-btn filter-btn" aria-expanded="false">Filter <span class="filter-count" hidden></span></button>
+    </div>
+    <div class="filters" hidden>
+      <div class="ac verse-ac">
+        <label>Universum
+          <input class="verse-input" type="text" placeholder="z. B. Naruto, Marvel Comics …" autocomplete="off" spellcheck="false">
+        </label>
+        <ul class="ac-list" role="listbox" hidden></ul>
+      </div>
+      <label>Tier
+        <select class="tier-select"><option value="">Alle Tiers</option></select>
+      </label>
+      <label>Medium
+        <select class="media-select"><option value="">Alle Medien</option></select>
+      </label>
+      <label>Gesinnung
+        <select class="align-select"><option value="">Alle</option></select>
+      </label>
+      <button class="link-btn reset-filters">Filter zurücksetzen</button>
+    </div>
+    <div class="ac char-ac">
+      <input class="char-input" type="text" placeholder="Charakter suchen …" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false">
+      <ul class="ac-list" role="listbox" hidden></ul>
+    </div>
+    <div class="card empty">
+      <div class="placeholder">
+        <span>?</span>
+        <p>Noch kein Kämpfer gewählt</p>
+      </div>
+    </div>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
